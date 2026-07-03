@@ -191,7 +191,7 @@ function App() {
                   <h3 className="text-xs font-black text-emerald-600 uppercase tracking-widest flex justify-between w-full">ORG INFO <ChevronRight size={14} /></h3>
                   <div>
                     <p className={`text-base font-black mb-1 ${headingClass}`}>{organizationInfo.name}</p>
-                    <p className={`text-xs uppercase font-mono tracking-tighter ${textMutedClass}`}>หน่วยฝึกอบรม (ชั้น 8)</p>
+                    <p className={`text-xs uppercase font-mono tracking-tighter ${textMutedClass}`}>หน่วยฝึกอบรม (บท. ฝอร.)</p>
                   </div>
                 </button>
               </div>
