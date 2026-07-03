@@ -132,7 +132,7 @@ function App() {
     <div className={`flex flex-col md:flex-row h-screen font-sans overflow-hidden ${mainBgClass}`}>
       <div className={`md:hidden border-b p-4 flex items-center justify-between z-50 ${sidebarBgClass}`}>
         <h1 className="text-lg font-black text-blue-600 uppercase tracking-wider flex items-center gap-2">
-          <Layout size={20} /> KMUTNB LOG
+          <Layout size={20} /> Internship Report
         </h1>
         <div className="flex items-center gap-2">
           <button onClick={() => setIsDark(!isDark)} className={`p-2 rounded-xl border ${isDark ? 'border-slate-700 text-amber-400' : 'border-slate-400 text-blue-900 bg-white'}`}>
