@@ -226,7 +226,7 @@ function App() {
                       </div>
                       <div className={`p-5 rounded-xl border ${isDark ? 'bg-emerald-950/20 border-emerald-900/30' : 'bg-emerald-50 border-emerald-300'}`}>
                         <p className="text-xs text-emerald-600 font-black uppercase mb-1 tracking-widest">Solution</p>
-                        <p className="text-base font-bold text-emerald-900">{prob.solution}</p>
+                        <p className="text-base font-bold text-white">{prob.solution}</p>
                       </div>
                     </div>
                   ))}
