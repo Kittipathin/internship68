@@ -147,7 +147,7 @@ function App() {
       <aside className={`fixed md:relative top-0 left-0 h-full w-80 border-r flex flex-col shrink-0 z-40 transform transition-transform duration-300 md:transform-none ${sidebarBgClass} ${sidebarOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'}`}>
         <div className="p-6 border-b flex items-center justify-between hidden md:flex">
           <h1 className="text-xl font-black text-blue-700 flex items-center gap-2 uppercase">
-            <Layout size={24} /> KMUTNB LOG
+            <Layout size={24} /> Internship Report
           </h1>
           <button onClick={() => setIsDark(!isDark)} className={`p-2 rounded-xl border transition-all ${isDark ? 'border-slate-800 text-amber-400 bg-slate-950' : 'border-slate-400 text-blue-950 bg-white shadow-sm'}`}>
             {isDark ? <Sun size={18} /> : <Moon size={18} />}
